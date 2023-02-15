@@ -1,5 +1,8 @@
 I have tried to make a multi container application using docker compose
 
+This is a bare minimum file , we would also need several other things as well such as attaching a volume,
+exposing ports etc.
+
 This is a video tutorial of how to write a docker compose file :
 https://youtu.be/HUpIoF_conA
 
