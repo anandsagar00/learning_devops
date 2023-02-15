@@ -13,6 +13,8 @@ Here I have written an echo command to print "The instance is running perfectly.
 
 This way I can be sure that image has been build perfectly and is running perfectly.
 
+[![Screenshot-2023-02-15-at-9-33-28-PM.png](https://i.postimg.cc/76nMbFJR/Screenshot-2023-02-15-at-9-33-28-PM.png)](https://postimg.cc/gXr6TBDy)
+
 IMP : note the difference between CMD and entry point 
 
 In Docker, both CMD and ENTRYPOINT are used to define the default command to be executed when a Docker container starts, but they have different functionalities and use cases.
