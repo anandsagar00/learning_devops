@@ -22,6 +22,8 @@ docker pull jenkins/jenkins
 
 docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v TestVolume:/var/jenkins_home -d jenkins/jenkins
 
+##### instead of mounting to a volume we can also mount a physical location on our harddrive
+
 in the above command I am naming my container as myjenkins and exposing the ports on host at 8080 and 50000 , and attaching /var/jenkins_home folder inside jenkins container to my TestVolume outside container so that I can acces it even when container is deleted
 
 I am running the container in detached mode
