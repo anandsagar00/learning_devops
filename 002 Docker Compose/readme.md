@@ -29,3 +29,7 @@ The containers are running in BG
 You can also see this in GUI
 
 [![image.png](https://i.postimg.cc/4NT46wxX/image.png)](https://postimg.cc/232fmQWt)
+
+To stop the containers , run 
+
+docker compose down
