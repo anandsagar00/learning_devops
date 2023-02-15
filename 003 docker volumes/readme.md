@@ -49,3 +49,32 @@ Jenkins password entry by entering into integrated terminal of jenkins and revea
 
 [![image.png](https://i.postimg.cc/CKMwLTyz/image.png)](https://postimg.cc/75RFmRZk)
 
+#### Here I am accesing Jenkins from myjenkins container
+
+[![image.png](https://i.postimg.cc/kXPwFtct/image.png)](https://postimg.cc/c6TQdCPs)
+
+#### Now I have create one more instance of Jenkins container names myjenkins1
+
+[![image.png](https://i.postimg.cc/C5gDDbgh/image.png)](https://postimg.cc/hz2fRzv6)
+
+[![image.png](https://i.postimg.cc/ZRh0DZDj/image.png)](https://postimg.cc/KKJZ1Xbg)
+
+In the image above you can see that the new instance is running at 8001 port and we are directly getting login option now I'll login using the user-name and password which I created in myjenkins instance
+
+[![image.png](https://i.postimg.cc/kMTXWx9T/image.png)](https://postimg.cc/14NQQV8F)
+
+(In the image above you can see that the job we create in myjenkins container is also visible in myjenkins1 container)
+
+#### Now I will delete first instance
+
+(Command to stop myjenkins instance and remove from memory)
+[![image.png](https://i.postimg.cc/Zn2GVYw5/image.png)](https://postimg.cc/8fdXCG82)
+
+
+[![image.png](https://i.postimg.cc/fRmNqXnn/image.png)](https://postimg.cc/68Wgy8pY)
+
+(This Screenshot shows that first instance is not available )
+
+BUT....still, data is accesible from 2nd instance
+
+[![image.png](https://i.postimg.cc/cH52L4yB/image.png)](https://postimg.cc/KkBJ9bY1)
