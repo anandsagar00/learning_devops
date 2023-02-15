@@ -1,0 +1,7 @@
+services:
+  #this (below) is the name of the service
+  web:
+    image: nginx
+  
+  database:
+    image: redis
