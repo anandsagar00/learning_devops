@@ -2,6 +2,9 @@ services:
   #this (below) is the name of the service
   web:
     image: nginx
+    ports:
+    # in case of a list like this below don't forget to add a space after hiphen - 
+      - 9002:80
   
   database:
     image: redis

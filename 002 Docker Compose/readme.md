@@ -33,6 +33,10 @@ You can also see this in GUI
 
 [![image.png](https://i.postimg.cc/4NT46wxX/image.png)](https://postimg.cc/232fmQWt)
 
+You can also see that on port 9002 the nginx webserver is also running 
+
+[![image.png](https://i.postimg.cc/gc4X2fKf/image.png)](https://postimg.cc/z3bXd26j)
+
 To stop the containers , run 
 
 docker compose down
