@@ -1,0 +1,1 @@
+Hello this is a text file , which I will be copying from my local machine to a folder inside container.
